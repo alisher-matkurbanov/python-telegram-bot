@@ -21,6 +21,7 @@
 from .basepersistence import BasePersistence
 from .picklepersistence import PicklePersistence
 from .dictpersistence import DictPersistence
+from .rest_api_persistence import RestApiPersistence
 from .handler import Handler
 from .callbackcontext import CallbackContext
 from .dispatcher import Dispatcher, DispatcherHandlerStop, run_async
@@ -48,4 +49,4 @@ __all__ = ('Dispatcher', 'JobQueue', 'Job', 'Updater', 'CallbackQueryHandler',
            'StringRegexHandler', 'TypeHandler', 'ConversationHandler',
            'PreCheckoutQueryHandler', 'ShippingQueryHandler', 'MessageQueue', 'DelayQueue',
            'DispatcherHandlerStop', 'run_async', 'CallbackContext', 'BasePersistence',
-           'PicklePersistence', 'DictPersistence', 'PrefixHandler')
+           'PicklePersistence', 'DictPersistence', 'RestApiPersistence', 'PrefixHandler')
